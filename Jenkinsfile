@@ -8,7 +8,7 @@ agent any
 stages {
 stage('Cloning Git') {
 steps {
-git([url: 'https://github.com/gitakbar/war-web-project.git', branch: 'master', credentialsId: 'dockerhub'])
+git([url: 'https://github.com/gitakbar/war-web-project.git', branch: 'master', credentialsId: 'github'])
 }
 }
 stage('Building image') {
