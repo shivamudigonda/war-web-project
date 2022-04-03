@@ -1,7 +1,7 @@
 pipeline {
 environment {
-imagename = "yenigul/hacicenkins"
-registryCredential = 'yenigul-dockerhub'
+imagename = "arahman009/test009:tagname"
+registryCredential = 'dockerhub'
 dockerImage = ''
 }
 agent any
