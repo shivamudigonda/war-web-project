@@ -14,7 +14,7 @@ RUN apt-get install -y openjdk-8-jdk
 RUN java -version
 
 WORKDIR /opt/tomcat/webapps
-RUN cp /var/lib/jenkins/workspace/java-tomcat-dockerfile/target/wwp-1.0.0.war .
+RUN cp /root/docker/workspace/java-tomcat-dockerfile/target/wwp-1.0.0.war .
 
 EXPOSE 8080
 
